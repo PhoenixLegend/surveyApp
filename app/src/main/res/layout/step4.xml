@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="What do you think of the University life?"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:id="@+id/subtitle_5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="what do you think?"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/button_5"
+        android:onClick="button_5"
+        android:enabled="false"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/subtitle_5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_above="@+id/button_5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:text="Listen carefully in class, accumulate knowledge"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4_1"
+                android:layout_alignStart="@+id/scrollView2"
+
+                android:layout_below="@+id/subtitle_5" />
+
+            <CheckBox
+                android:text="Do my own things, expect roll call"
+                android:layout_marginTop="20dp"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4_2" />
+
+            <CheckBox
+                android:text="Earn money by doing part-time jobs"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4_3" />
+
+            <CheckBox
+                android:text="Join the club to exercise yourself"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4_4" />
+
+            <CheckBox
+                android:text="Go to the library and read more books"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4_5" />
+
+            <CheckBox
+                android:text="Study hard, play fun"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4_6" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

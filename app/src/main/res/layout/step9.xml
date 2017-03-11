@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="How much does studying take proportion of university?"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="113dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/subtitle_10" />
+
+    <Button
+        android:text="Please select one"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/button_10"
+        android:onClick="button_10"
+        android:enabled="false"
+        android:layout_below="@+id/g9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/g9"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    <RadioButton
+        android:text="20%"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitle_10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/radioButton_9" />
+
+
+        <RadioButton
+            android:text="40%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton_9"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton2_9" />
+        <RadioButton
+            android:text="60%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton2_9"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton3_9" />
+        <RadioButton
+            android:text="80%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton3_9"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton4_9" />
+    </RadioGroup>
+
+
+</RelativeLayout>

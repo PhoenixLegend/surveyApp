@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="How much do you think you have learned in college?"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="113dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/subtitle_9" />
+
+    <Button
+        android:text="Please select one"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/button_9"
+        android:onClick="button_9"
+        android:enabled="false"
+        android:layout_below="@+id/g8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/g8"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    <RadioButton
+        android:text="A lot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitle_9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/radioButton_8" />
+
+
+        <RadioButton
+            android:text="Commonly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton_8"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton2_8" />
+        <RadioButton
+            android:text="Seldom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton2_8"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton3_8" />
+        <RadioButton
+            android:text="Very seldom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton3_8"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton4_8" />
+    </RadioGroup>
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="What do you usually do when you go to the library?"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="113dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/subtitle_7" />
+
+    <Button
+        android:text="Please select one"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/button_7"
+        android:onClick="button_7"
+        android:enabled="false"
+        android:layout_below="@+id/g6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/g6"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+    <RadioButton
+        android:text="Reading Books"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitle_7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/radioButton_6" />
+
+
+        <RadioButton
+            android:text="Sleeping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton_6"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton2_6" />
+        <RadioButton
+            android:text="Doing projects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton2_6"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioButton3_6" />
+    </RadioGroup>
+
+
+</RelativeLayout>
